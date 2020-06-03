@@ -1,28 +1,27 @@
 import React from 'react';
 import NavBar from "./Components/NavBar";
-import {Grid, Paper, Container} from "@material-ui/core";
-import Image from "./Components/profile_pic.jpg";
+import {Grid, Paper} from "@material-ui/core";
+// import Image from "./Components/profile_pic.jpg";
 import Profile from "./Components/Profile";
-const styles = {
-  gridContainer: {
-    backgroundImage: `url(${Image})`,
-  }
-};
+import Activities from "./Components/Activities";
+// const styles = {
+//   gridContainer: {
+//     backgroundImage: `url(${Image})`,
+//   }
+// };
 function App() {
   return (
-    <React.Fragment>
+    <Grid container direction="column">
       <NavBar />
-      <Grid container>
-        <Grid item sm >
-          <Paper >
-            <Profile />
-          </Paper>
+      <Grid container >
+        <Grid item sm = {6} >
+    <Profile />
         </Grid>
-        <Grid item sm>
-          <h1> How are you?</h1>
+        <Grid item sm = {6}>
+<Activities />
         </Grid>
       </Grid>
-    </React.Fragment>
+    </Grid>
 
   );
 }
