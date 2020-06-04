@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "55587bd45f37abab2b73e607d6cc727c",
+    "revision": "55f000b508dd564653b1a804d52f789f",
     "url": "/index.html"
   },
   {
-    "revision": "72999aab17fef310c8b9",
-    "url": "/static/js/2.f0db3cd7.chunk.js"
+    "revision": "921ca5f0c1f751b7dda4",
+    "url": "/static/js/2.8305a70b.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/static/js/2.f0db3cd7.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8305a70b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0de1c29acb46ba00083a",
-    "url": "/static/js/main.8f3b47c9.chunk.js"
+    "revision": "731e7d737a03316d64b7",
+    "url": "/static/js/main.b075a79d.chunk.js"
   },
   {
     "revision": "c815442ab336b747f527",
     "url": "/static/js/runtime-main.94a6af97.js"
+  },
+  {
+    "revision": "2546a52339587d05cbacfceffba6f1c8",
+    "url": "/static/media/YuvalResume.2546a523.pdf"
   },
   {
     "revision": "5528ee13102ce2a42cc2a125709cd942",

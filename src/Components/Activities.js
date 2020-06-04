@@ -13,12 +13,14 @@ export default function Activities() {
                         for the Bachelor of Computer Engineering (Honours). I am highly interested in
                         Data Science, ML and Web Development. You can find me on LinkedIn or Github.
                         I like coding in general and these are the langauages that I like to code in:
+                    </Typography>
+                <Typography variant="body2" color="primary">
                         <ul>
                             <li>C++</li>
                             <li>Python</li>
                             <li>React using JavaScript</li>
                         </ul>
-                    </Typography>
+                </Typography>
             </Grid>
             </Grid>
         </Grid>
