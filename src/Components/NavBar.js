@@ -1,10 +1,12 @@
 import React from "react";
 import {AppBar, Typography,Toolbar, Button} from "@material-ui/core";
-// import createMuiTheme from "@material-ui/core/styles/createMuiTheme";
+import {createMuiTheme, ThemeProvider} from "@material-ui/core";
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import IconButton from "@material-ui/core/IconButton";
+import brown from '@material-ui/core/colors/brown';
+import green from '@material-ui/core/colors/green';
 import Resume from '../YuvalResume.pdf';
 
 const onResumeClick = () =>{
@@ -20,34 +22,44 @@ const handleLinkedIn = () =>{
     window.open('https://www.linkedin.com/in/yuval-kansal-0a1643193/');
 }
 
+const theme = createMuiTheme({
+        palette: {
+            primary: brown,
+            secondary: green,
+        }
+    }
+)
+
 const NavBar = () => {
         return(
-                <AppBar position="static" color = "primary">
-                    <Toolbar>
-                        <Typography>
-                            <Button color = "inherit" onClick={onResumeClick}>
-                                Resume
-                            </Button>
-                        </Typography>
-                        <Typography style={{flexGrow: 1}}>
-                            <Button color = "inherit">
-                                Activities
-                            </Button>
-                        </Typography>
-                        <Typography>
-                            <IconButton onClick={handleInstagram}>
-                                <InstagramIcon allowReorder="yes"/>
-                            </IconButton>
-                            <IconButton onClick={handleLinkedIn}>
-                                <LinkedInIcon />
-                            </IconButton>
-                            <IconButton onClick={handleGithub}>
-                                <GitHubIcon />
-                            </IconButton>
+                <ThemeProvider theme={theme}>
+                    <AppBar position="static" color = "primary">
+                        <Toolbar>
+                            <Typography>
+                                <Button color = "inherit" onClick={onResumeClick}>
+                                    Resume
+                                </Button>
+                            </Typography>
+                            <Typography style={{flexGrow: 1}}>
+                                <Button color = "inherit">
+                                    Activities
+                                </Button>
+                            </Typography>
+                            <Typography>
+                                <IconButton onClick={handleInstagram}>
+                                    <InstagramIcon allowReorder="yes"/>
+                                </IconButton>
+                                <IconButton onClick={handleLinkedIn}>
+                                    <LinkedInIcon />
+                                </IconButton>
+                                <IconButton onClick={handleGithub}>
+                                    <GitHubIcon />
+                                </IconButton>
 
-                        </Typography>
-                    </Toolbar>
-                </AppBar>
+                            </Typography>
+                        </Toolbar>
+                    </AppBar>
+                </ThemeProvider>
         )
 }
 export default NavBar;

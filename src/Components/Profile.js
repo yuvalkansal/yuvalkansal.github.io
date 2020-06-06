@@ -12,7 +12,7 @@ import Image from './profile_pic.jpg';
 
 export default function Profile() {
     return (
-        <Card>
+        <Card style = {{padding: 10}}>
             <CardActionArea>
                 <CardMedia
                     component="img"
