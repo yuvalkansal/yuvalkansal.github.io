@@ -1,18 +1,20 @@
 import React from 'react';
-//import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
-//import CardActions from '@material-ui/core/CardActions';
-//import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
-//import Button from '@material-ui/core/Button';
-//import Typography from '@material-ui/core/Typography';
+import {Box} from "@material-ui/core";
 import Image from './profile_pic.jpg';
+
+const defaultProps = {
+    bgcolor: 'background.paper',
+    borderColor: 'text.primary',
+    m: 1,
+    border: 1,
+};
 
 
 export default function Profile() {
     return (
-        <Card style = {{padding: 10}}>
+        <Box style = {{padding: 10}} borderRadius={16} {...defaultProps}>
             <CardActionArea>
                 <CardMedia
                     component="img"
@@ -20,8 +22,7 @@ export default function Profile() {
                     src = {Image}
                     title="Yuval Kansal"
                 />
-
             </CardActionArea>
-        </Card>
+        </Box>
     );
 }

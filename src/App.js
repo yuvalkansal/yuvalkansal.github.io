@@ -21,10 +21,6 @@ function App() {
             <Grid container direction="column">
                 <NavBar />
                 <Grid container>
-                    <Grid item sm={12}>
-                        <Achievements/>
-                    </Grid>
-                </Grid>
                 <Grid container >
                     <Grid item sm = {6} >
                         <Profile />
@@ -32,6 +28,10 @@ function App() {
                     <Grid item sm = {6}>
                         <Introduction />
                     </Grid>
+                    <Grid item sm={12}>
+                        <Achievements/>
+                    </Grid>
+                </Grid>
                 </Grid>
                 {/*to build under the photo and profile*/}
 
