@@ -30,19 +30,14 @@ const theme = createMuiTheme({
     }
 )
 
-const NavBar = () => {
+const NavBar = ({toggleTheme}) => {
         return(
                 <ThemeProvider theme={theme}>
                     <AppBar position="static" color = "primary">
                         <Toolbar>
-                            <Typography>
+                            <Typography style={{flexGrow: 1}}>
                                 <Button color = "inherit" onClick={onResumeClick}>
                                     Resume
-                                </Button>
-                            </Typography>
-                            <Typography style={{flexGrow: 1}}>
-                                <Button color = "inherit">
-                                    Activities
                                 </Button>
                             </Typography>
                             <Typography>

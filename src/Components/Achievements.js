@@ -38,7 +38,7 @@ export default function Achievements() {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
+                        <Button size="small" color="secondary">
                             Learn More
                         </Button>
                     </CardActions>
@@ -63,7 +63,7 @@ export default function Achievements() {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
+                        <Button size="small" color="secondary">
                             Learn More
                         </Button>
                     </CardActions>
@@ -79,7 +79,7 @@ export default function Achievements() {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            National Baseball Championship
+                            GIIS Global Citizen Scholarship
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
                             After passing my 10th from India, I was awarded the GIIS Global Citizen Scholarship
@@ -88,7 +88,7 @@ export default function Achievements() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="secondary">
                         Learn More
                     </Button>
                 </CardActions>

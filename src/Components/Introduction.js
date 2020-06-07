@@ -8,7 +8,7 @@ export default function Introduction() {
         <Grid container direction="column">
             <Grid item container sm >
             <Grid item style={{padding: 15}}>
-                    <Typography variant="h4" color="primary" component="p">
+                    <Typography variant="h4" color="inherit" component="p">
                         My name is Yuval Kansal and I am currently a first year student enrolled in UNSW
                         for the Bachelor of Computer Engineering (Honours). I am highly interested in
                         Data Science, ML and Web Development. You can find me on LinkedIn or Github.
@@ -17,7 +17,7 @@ export default function Introduction() {
 
             </Grid>
                 <Grid item>
-                    <Typography variant="h4" color="primary">
+                    <Typography variant="h4" color="inherit">
                         <ul>
                             <li>C++</li>
                             <li>Python</li>
