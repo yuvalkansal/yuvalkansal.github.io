@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from "./Components/NavBar";
 import {Grid, Paper} from "@material-ui/core";
 // import Image from "./Components/profile_pic.jpg";
+//import Movie from './movie.mp4'
 import Profile from "./Components/Profile";
 import Introduction from "./Components/Introduction";
 import Achievements from "./Components/Achievements";
@@ -36,6 +37,9 @@ function App() {
                 {/*to build under the photo and profile*/}
 
             </Grid>
+            {/*<video width="320" height="240" controls>*/}
+            {/*    <source src={Movie} type="video/mp4" />*/}
+            {/*</video>*/}
         </Paper>
     </ThemeProvider>
 

@@ -10,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 import Grid from "@material-ui/core/Grid";
 import Image1 from './SMO.jpg';
 import Image2 from './Baseball.jpg';
-import Image3 from './GIIS.jpg';
+//import Image3 from './GIIS.jpg';
+import Movie from '../movie.mp4'
 
 export default function Achievements() {
 
@@ -28,7 +29,8 @@ export default function Achievements() {
                             <Typography gutterBottom variant="h5" component="h2">
                                 Singapore Mathematical Olympiad
                             </Typography>
-                            <Typography variant="body2" color="textSecondary" component="p">
+                            <Typography variant="body2" color="textSecondary" component="p"
+                                        >
                                 I was awarded the Silver Award in the prestigious Singapore Mathematical Olympiad
                                 conducted by The Mathematical Society of Singpore.
                             </Typography>
@@ -69,18 +71,18 @@ export default function Achievements() {
             <Grid item sm={4}>
                 <Card  style = {{padding:15}}>
                 <CardActionArea>
-                    <CardMedia
-                        component="img" alt="GIIS Global Citizen Scholarship"
-                        height="500" image= {Image3}
-                        title="GIIS Global Citizen Scholarship"
+                    <CardMedia aspectRatio="wide"
+                        component="iframe" alt="GIIS Global Citizen Scholarship"
+                        height="500" image= {Movie}
+                        title=" C++ text based game"
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5" component="h2">
-                            GIIS Global Citizen Scholarship
+                            C++ text based game
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            After passing my 10th from India, I was awarded the GIIS Global Citizen Scholarship
-                            and got to pursue my high school in Singapore.
+                            A text-based RPG made for first year project which has over 33 different levels
+                            and 6 alternate endings.
                         </Typography>
                     </CardContent>
                 </CardActionArea>
