@@ -14,11 +14,11 @@ const defaultProps = {
 
 export default function Profile() {
     return (
-        <Box style = {{padding: 10}} borderRadius={16} {...defaultProps}>
+        <Box style = {{padding: 15}} borderRadius={10} {...defaultProps}>
             <CardActionArea>
                 <CardMedia
                     component="img"
-                    height="555"
+                    height="535"
                     src = {Image}
                     title="Yuval Kansal"
                 />
