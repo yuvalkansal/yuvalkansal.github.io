@@ -38,9 +38,6 @@ function App() {
                 {/*to build under the photo and profile*/}
 
             </Grid>
-            {/*<video width="320" height="240" controls>*/}
-            {/*    <source src={Movie} type="video/mp4" />*/}
-            {/*</video>*/}
         <Mail />
         </Paper>
     </ThemeProvider>

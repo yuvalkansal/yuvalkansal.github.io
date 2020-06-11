@@ -71,9 +71,9 @@ export default function Achievements() {
             <Grid item sm={4}>
                 <Card  style = {{padding:15}}>
                 <CardActionArea>
-                    <CardMedia aspectRatio="wide"
-                        component="iframe" alt="GIIS Global Citizen Scholarship"
-                        height="500" image= {Movie}
+                    <CardMedia
+                        component="iframe" alt="C++ text base game"
+                        height="495" image= {Movie}
                         title=" C++ text based game"
                     />
                     <CardContent>
@@ -81,7 +81,7 @@ export default function Achievements() {
                             C++ text based game
                         </Typography>
                         <Typography variant="body2" color="textSecondary" component="p">
-                            A text-based RPG made for first year project which has over 33 different levels
+                            A text-based RPG, 'Monster', made for first year project which has over 33 different levels
                             and 6 alternate endings.
                         </Typography>
                     </CardContent>
