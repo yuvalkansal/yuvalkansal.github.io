@@ -1,5 +1,5 @@
 import React from "react";
-import {AppBar, Typography,Toolbar, Button} from "@material-ui/core";
+import {AppBar, Typography,Toolbar} from "@material-ui/core";
 import {createMuiTheme, ThemeProvider} from "@material-ui/core";
 import InstagramIcon from '@material-ui/icons/Instagram';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
@@ -8,7 +8,7 @@ import IconButton from "@material-ui/core/IconButton";
 import brown from '@material-ui/core/colors/brown';
 import green from '@material-ui/core/colors/green';
 import Resume from '../YuvalResume.pdf';
-
+import './NavBar.css';
 
 const onResumeClick = () =>{
     window.open(Resume);
@@ -34,12 +34,14 @@ const theme = createMuiTheme({
 const NavBar = ({toggleTheme}) => {
         return(
                 <ThemeProvider theme={theme}>
-                    <AppBar position="static" color = "primary">
+                    <AppBar position="static" color = "primary" >
                         <Toolbar>
                             <Typography style={{flexGrow: 1}}>
-                                <Button color = "inherit" onClick={onResumeClick}>
-                                    Resume
-                                </Button>
+                                <a href=""className="link" onClick={onResumeClick} >
+                                    RESUME
+                                </a>
+                                <a href="#Contact" className="link">CONTACT</a>
+                                <a href="#Achievements" className="link"> ACHIEVEMENTS</a>
                             </Typography>
                             <Typography>
                                 <IconButton onClick={handleInstagram}>

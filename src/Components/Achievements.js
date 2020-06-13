@@ -16,7 +16,7 @@ import Movie from '../movie.mp4'
 export default function Achievements() {
 
     return (
-        <Grid container>
+        <Grid container id="Achievements">
             <Grid item sm={4}>
                 <Card  style = {{padding:15}}>
                     <CardActionArea>
@@ -87,7 +87,9 @@ export default function Achievements() {
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="secondary">
+                    <Button size="small" color="secondary"
+                    onClick={()=>window.open('https://github.com/yuvalkansal/ENGG1340-Project')}
+                    >
                         Learn More
                     </Button>
                 </CardActions>

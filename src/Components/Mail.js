@@ -17,12 +17,12 @@ function Mailto({ email, subject, body}) {
 }
 export default function Mail() {
     return(
-            <BottomNavigation style = {{alignItems: 'center',margin: 0}}>
+            <BottomNavigation style = {{alignItems: 'center',margin: 0}} id="Contact">
                 <Typography >
                     All rights reserved.
                 </Typography>
                 <IconButton>
-                    <Mailto obfuscate = {true} email="yuvalkansal@gmail.com" subject="Hello!" body="Hey, How are you?" />
+                    <Mailto email="yuvalkansal@gmail.com" subject="Hello!" body="Hey, How are you?" />
                 </IconButton>
                 <Typography >
                     Yuval Kansal.

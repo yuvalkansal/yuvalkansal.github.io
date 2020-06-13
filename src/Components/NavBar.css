@@ -1,0 +1,11 @@
+.link {
+    /*width: 115px;*/
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: coral;
+    font-weight: bold;
+    /*line-height: 25px;*/
+}
