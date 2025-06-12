@@ -1,14 +1,1 @@
----
-layout: about
-title: about
-permalink: /
-
-profile:
-  align: right
-  image: prof_pic.jpeg
-  image_circular: false # crops the image to make it circular
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
----
-
 I am a PhD student in the Department of Electrical and Computer Engineering at Princeton University advised by [Prof. Niraj Jha](https://ece.princeton.edu/people/niraj-jha). Prior to this, I was an undergraduate student at The University of New South Wales (UNSW Sydney) where I completed by Bachelors in Computer Engineering (Honours). I am broadly interested in improving the reasoning capabilities in LLMs and building bottom-up superintelligence. Feel free to get in touch via email if you want to collaborate or discuss any ideas!
