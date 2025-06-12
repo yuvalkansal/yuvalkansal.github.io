@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: yuval[AT]princeton[DOT]edu
+subtitle: yuvalkansal[AT]princeton[DOT]edu
 
 profile:
   align: right
