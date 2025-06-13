@@ -11,7 +11,7 @@ profile:
 
 social: true
 announcements:
-  enabled: false
+  enabled: true
 latest_posts:
   enabled: false
 selected_papers: false
@@ -23,5 +23,7 @@ selected_papers: false
   .post p, .post li { font-size: 1.2rem; }
 </style>
 
-I am a PhD student in the Department of Electrical and Computer Engineering at Princeton University advised by [Prof. Niraj Jha](https://ece.princeton.edu/people/niraj-jha). Prior to this, I was an undergraduate student at The University of New South Wales (UNSW Sydney) where I completed by Bachelors in Computer Engineering (Honours). I am broadly interested in improving the reasoning capabilities in LLMs and building bottom-up superintelligence. In my free time, I like to travel, hike, run and read. Feel free to get in touch via email if you want to collaborate or discuss any ideas!
+I am a first year PhD student in the Department of Electrical and Computer Engineering at Princeton University advised by [Prof. Niraj Jha](https://ece.princeton.edu/people/niraj-jha). Before this, I completed my undergraduate degree at The University of New South Wales (UNSW Sydney) in Computer Engineering (Honours) under [Prof. Salil Kanhere](https://research.unsw.edu.au/people/professor-salil-kanhere).
+
+I am broadly interested in improving the reasoning capabilities of LLMs and building bottom-up superintelligence. In my free time, I enjoy traveling, hiking, running and reading. Please feel free to get in touch via email if you want to collaborate or discuss any ideas!
 
