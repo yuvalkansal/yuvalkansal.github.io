@@ -391,16 +391,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-graduated-from-unsw-sydney-with-a-bachelor-in-computer-engineering-honours-class-1",
+          title: 'Graduated from UNSW Sydney with a Bachelor in Computer Engineering (Honours Class 1)...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-moved-to-the-us-and-started-my-phd-at-princeton-university",
+          title: 'Moved to the US and started my PhD at Princeton University! 🎉',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-awarded-with-the-the-hisashi-and-masae-kobayashi-67-fellowship-fund-for-the-2024-25-academic-year",
+          title: 'Awarded with the The Hisashi and Masae Kobayashi *67 Fellowship Fund for the...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
