@@ -8,12 +8,12 @@ last_name: Kansal
 contact_note: >
   The best way to reach me is via email :)
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  PhD student in ECE at Princeton University. All things AI.
+  Yuval Kansal - PhD student in Electrical and Computer Engineering at Princeton University advised by Prof. Niraj Jha. Research focus on improving LLM reasoning capabilities and building bottom-up superintelligence. Previously Computer Engineering Honours graduate from UNSW Sydney.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: yuval, yuval kansal, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: yuval kansal, princeton university, phd student, electrical computer engineering, machine learning, artificial intelligence, llm reasoning, superintelligence, niraj jha, unsw sydney, computer engineering, ai research, deep learning, neural networks # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🤖 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -64,7 +64,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+og_image: /assets/img/prof_pic.jpeg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -375,12 +375,12 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false # enables google analytics
+enable_google_analytics: true # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
-enable_bing_verification: false # enables bing site verification
+enable_google_verification: true # enables google site verification
+enable_bing_verification: true # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts

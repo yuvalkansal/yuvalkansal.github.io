@@ -1,0 +1,49 @@
+<!-- Academic Schema.org structured data for better SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.first_name }} {{ site.last_name }}",
+  "alternateName": ["{{ site.first_name }}", "{{ site.last_name }}"],
+  "jobTitle": "PhD Student",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "Princeton University",
+    "department": "Department of Electrical and Computer Engineering",
+    "url": "https://ece.princeton.edu/"
+  },
+  "alumniOf": {
+    "@type": "Organization", 
+    "name": "The University of New South Wales",
+    "url": "https://www.unsw.edu.au/"
+  },
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "image": "{{ site.url }}{{ site.baseurl }}/assets/img/prof_pic.jpeg",
+  "description": "{{ site.description }}",
+  "email": "yuvalkansal@princeton.edu",
+  "knowsAbout": [
+    "Machine Learning",
+    "Artificial Intelligence", 
+    "Large Language Models",
+    "Neural Networks",
+    "Computer Engineering",
+    "Deep Learning",
+    "AI Reasoning",
+    "Superintelligence"
+  ],
+  "researchField": [
+    "Machine Learning",
+    "Artificial Intelligence",
+    "Computer Engineering"
+  ],
+  {% if site.scholar_userid %}
+  "sameAs": [
+    "https://scholar.google.com/citations?user={{ site.scholar_userid }}",
+    {% if site.github_username %}"https://github.com/{{ site.github_username }}",{% endif %}
+    {% if site.linkedin_username %}"https://www.linkedin.com/in/{{ site.linkedin_username }}",{% endif %}
+    {% if site.x_username %}"https://twitter.com/{{ site.x_username }}",{% endif %}
+    {% if site.orcid_id %}"https://orcid.org/{{ site.orcid_id }}"{% endif %}
+  ]
+  {% endif %}
+}
+</script> 
