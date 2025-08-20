@@ -69,6 +69,10 @@ og_image: /assets/img/prof_pic.jpeg # The site-wide (default for all links) Open
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
 google_analytics: G-8RGK729YYQ # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+# For multiple measurement IDs (e.g., for custom domain + GitHub Pages), add them as a list:
+google_analytics_ids:
+  - G-8RGK729YYQ # your primary measurement ID
+  - G-LS1VZ8P5LH # add your second measurement ID here
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)

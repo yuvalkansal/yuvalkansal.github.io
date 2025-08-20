@@ -226,7 +226,13 @@
 {% if site.enable_google_analytics %}
   <!-- Analytics -->
   <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  {% if site.google_analytics_ids %}
+    <!-- Load gtag for the first measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_ids[0] }}"></script>
+  {% else %}
+    <!-- Fallback to single measurement ID -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+  {% endif %}
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() {
@@ -234,7 +240,15 @@
     }
     gtag('js', new Date());
 
-    gtag('config', '{{ site.google_analytics }}');
+    {% if site.google_analytics_ids %}
+      // Configure multiple measurement IDs
+      {% for measurement_id in site.google_analytics_ids %}
+      gtag('config', '{{ measurement_id }}');
+      {% endfor %}
+    {% else %}
+      // Configure single measurement ID (fallback)
+      gtag('config', '{{ site.google_analytics }}');
+    {% endif %}
   </script>
   <script defer src="{{ '/assets/js/google-analytics-setup.js' | relative_url }}"></script>
 {% endif %}
