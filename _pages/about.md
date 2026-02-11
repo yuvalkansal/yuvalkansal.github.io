@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: yuvalkansal[AT]princeton[DOT]edu
 description: Yuval Kansal - PhD student in Electrical and Computer Engineering at Princeton University. Research in machine learning, LLM reasoning, and AI superintelligence.
