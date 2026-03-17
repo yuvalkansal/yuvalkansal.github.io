@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: Yuval Kansal's selected Academic Publications and Research Papers.
+description: Yuval Kansal's selected Academic Publications and Research Papers. See Google Scholar for more details.
 keywords: yuval kansal publications, machine learning papers, ai research papers, princeton university research, computer engineering publications
 nav: true
 nav_order: 2
