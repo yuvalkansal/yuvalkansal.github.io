@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "Yuval Kansal&#39;s selected Academic Publications and Research Papers.",
+          description: "Yuval Kansal&#39;s selected Academic Publications and Research Papers. See Google Scholar for more details.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
