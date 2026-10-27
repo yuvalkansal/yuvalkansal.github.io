@@ -25,7 +25,7 @@ selected_papers: false
   .post p, .post li { font-size: 1.2rem; }
 </style>
 
-I am a third year PhD student in the Department of Electrical and Computer Engineering at Princeton University advised by [Prof. Niraj Jha](https://ece.princeton.edu/people/niraj-jha). Before this, I completed my undergraduate degree at The University of New South Wales (UNSW Sydney) in Computer Engineering (Honours) under [Prof. Salil Kanhere](https://research.unsw.edu.au/people/professor-salil-kanhere). In 2026, I spent time at [Meta FAIR](https://ai.meta.com/research/) as a research scientis intern.
+I am a third year PhD student in the Department of Electrical and Computer Engineering at Princeton University advised by [Prof. Niraj Jha](https://ece.princeton.edu/people/niraj-jha). Before this, I completed my undergraduate degree at The University of New South Wales (UNSW Sydney) in Computer Engineering (Honours) under [Prof. Salil Kanhere](https://research.unsw.edu.au/people/professor-salil-kanhere). In 2026, I spent time at [Meta FAIR](https://ai.meta.com/research/) as a Research Scientist Intern, working with [Mark Ibrahim](https://markibrahim.me/).
 
 I am broadly interested in improving the reasoning capabilities of LLMs and building bottom-up superintelligence. In my free time, I enjoy traveling, hiking, running and reading. Please feel free to get in touch via email if you want to collaborate or discuss any ideas!
 
